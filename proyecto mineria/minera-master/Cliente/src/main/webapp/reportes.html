@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Reportes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="notificacion.js"></script>
+        <link rel="stylesheet" href="reportes.css">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <main>
+            <div class="navegacion">
+                <a href="index.html">Inicio</a>
+                <a href="ubicaciones.html">Ubicaciones</a>
+                <a href="semaforos.html">Semáforos</a>
+                <a href="reportes.html">Reportes</a>
+            </div>
+            <h1>Reportes</h1>
+            <select name="select" id="cbxReporte">
+                <option value="Materiales" selected>Materiales</option>
+                <option value="Congestiones">Congestiones</option>
+            </select>
+            <input type="button" value="Buscar" id="btnBuscar"/>
+            <br/><br/>
+            <input type="text" placeholder="Usuario" id="user"/>
+            <input type="password" placeholder="Contraseña" id="password"/>
+            <input type="button" value="Ingresar" id="btnUser"/>
+            <section id="materiales">
+
+            </section>
+            <div>
+                <script src="reportes.js"></script>
+            </div>
+        </main>
+    </body>
+</html>
